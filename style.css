@@ -1,0 +1,189 @@
+@media (max-width:499px) {
+    body {
+        margin: 0px;
+        background:rgb(39, 39, 39);
+    }
+    
+    #polls-Img {
+        width:45vw;
+        position:absolute;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #user-Count-Container {
+        position:relative;
+        left:50%;
+        top:200px;
+        transform: translate(-50%);
+        min-width: 175px;
+        width:fit-content;
+        height:175px;
+        background:rgb(136, 8, 255);
+        box-shadow: 3px -3px 1px rgb(0, 217, 255),
+        -3px 3px 1px rgb(255, 0, 234);
+        border-radius: 25px;
+    }
+
+    #user-Count-Text {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-weight: 700;
+        font-size: 27px;
+        position:absolute;
+        width:150px;
+        top:5px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #user-Count {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-size: 27px;
+        position:absolute;
+        top:75px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #polls-Count-Container {
+        position:relative;
+        left:50%;
+        top:225px;
+        min-width: 175px;
+        max-width: 100vw;
+        transform: translate(-50%);
+        width:fit-content;
+        height:175px;
+        background:rgb(136, 8, 255);
+        box-shadow: 3px -3px 1px rgb(0, 217, 255),
+        -3px 3px 1px rgb(255, 0, 234);
+        border-radius: 25px;
+    }
+
+    #polls-Count-Text {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-weight: 700;
+        font-size: 27px;
+        position:absolute;
+        width:150px;
+        top:5px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #polls-Count {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-size: 27px;
+        position:absolute;
+        top:75px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #polls-Img-2 {
+        display:none;
+    }
+}
+
+
+
+
+@media (min-width:500px) {
+    body {
+        margin: 0px;
+        background:rgb(29, 29, 29);
+    }
+    
+    #polls-Img {
+        width:500px;
+        position:absolute; 
+        left:50%;
+        transform: translate(-50%);
+        display:none;
+    }
+
+    #polls-Img-2 {
+        position:absolute;
+        top:100px;
+        left:50%;
+        transform: translate(-50%);
+        width:300px;
+    }
+
+    #user-Count-Container {
+        position:relative;
+        left:50%;
+        top:400px;
+        transform: translate(calc(-50% - 95px));
+        min-width: 175px;
+        width:fit-content;
+        height:175px;
+        background:rgb(136, 8, 255);
+        box-shadow: 3px -3px 1px rgb(0, 217, 255),
+        -3px 3px 1px rgb(255, 0, 234);
+        border-radius: 25px;
+    }
+
+    #user-Count-Text {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-weight: 700;
+        font-size: 27px;
+        position:absolute;
+        width:150px;
+        top:5px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #user-Count {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-size: 27px;
+        position:absolute;
+        top:75px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #polls-Count-Container {
+        position:relative;
+        left:50%;
+        top:225px;
+        min-width: 175px;
+        max-width: 100vw;
+        transform: translate(calc(-50% + 95px));
+        width:fit-content;
+        height:175px;
+        background:rgb(136, 8, 255);
+        box-shadow: 3px -3px 1px rgb(0, 217, 255),
+        -3px 3px 1px rgb(255, 0, 234);
+        border-radius: 25px;
+    }
+
+    #polls-Count-Text {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-weight: 700;
+        font-size: 27px;
+        position:absolute;
+        width:150px;
+        top:5px;
+        left:50%;
+        transform: translate(-50%);
+    }
+
+    #polls-Count {
+        font-family: Arial;
+        color: rgb(230, 230, 230);
+        font-size: 27px;
+        position:absolute;
+        top:75px;
+        left:50%;
+        transform: translate(-50%);
+    }
+}
